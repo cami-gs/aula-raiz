@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Credenciales
+.env
+.env.local
+.env.*.local
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Base de datos local
+*.db
+*.sqlite
+.psql_history

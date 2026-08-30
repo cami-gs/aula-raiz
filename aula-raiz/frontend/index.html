@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula Raíz | Plataforma educativa local</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="topbar">
+    <div class="brand" aria-label="Aula Raíz">
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="rootIconGradient" x1="10" y1="8" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#1d4ed8"></stop>
+            <stop offset="1" stop-color="#6d28d9"></stop>
+          </linearGradient>
+        </defs>
+        <rect width="64" height="64" rx="14" fill="url(#rootIconGradient)"></rect>
+        <path d="M32 34V17" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"></path>
+        <path d="M32 20C25 13 18 14 15 21C22 23 28 23 32 20Z" fill="#bfdbfe"></path>
+        <path d="M32 20C39 13 46 14 49 21C42 23 36 23 32 20Z" fill="#ddd6fe"></path>
+        <path d="M32 34C31 42 27 48 20 53M32 34C35 42 40 48 47 53M32 36V56M25 46C21 45 18 43 15 40M39 46C43 44 46 42 50 39" fill="none" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round"></path>
+      </svg>
+      <div>
+        <p class="brand-kicker">TPE401</p>
+        <p class="brand-name">Aula Raíz</p>
+      </div>
+    </div>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <button class="nav-link is-active" type="button" data-view="inicio">Inicio</button>
+      <button class="nav-link" type="button" data-view="estudiante">Estudiante</button>
+      <button class="nav-link" type="button" data-view="docente">Docente</button>
+      <button class="nav-link" type="button" data-view="estadisticas">Estadísticas</button>
+      <button class="nav-link" type="button" data-view="acerca">Acerca</button>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="view hero-view is-active" id="inicio" aria-labelledby="inicio-titulo">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="section-eyebrow">Plataforma educativa local</p>
+          <h1 id="inicio-titulo">Aula Raíz</h1>
+          <p class="hero-phrase">Educación que permanece, aprende y libera</p>
+          <p class="hero-intro">
+            Prototipo funcional para organizar, consultar y administrar materiales pedagógicos en una red local,
+            pensado para el Liceo Santa María Eufrasia del CPF San Joaquín.
+          </p>
+
+          <div class="hero-actions" aria-label="Accesos por perfil">
+            <button class="primary-action" type="button" data-view="estudiante">Ingresar como estudiante</button>
+            <button class="secondary-action" type="button" data-view="docente">Ingresar como docente</button>
+          </div>
+        </div>
+
+        <div class="folder-library-visual" aria-label="Carpetas locales de asignaturas y materiales pedagógicos">
+          <div class="library-window-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+            <strong>Servidor local / materiales</strong>
+          </div>
+
+          <div class="folder-library-body">
+            <aside class="folder-sidebar" aria-label="Carpetas de asignaturas">
+              <div class="folder-item is-selected">
+                <span class="folder-icon" aria-hidden="true"></span>
+                <strong>Lenguaje</strong>
+              </div>
+              <div class="folder-item">
+                <span class="folder-icon" aria-hidden="true"></span>
+                <strong>Matemática</strong>
+              </div>
+              <div class="folder-item">
+                <span class="folder-icon" aria-hidden="true"></span>
+                <strong>Historia</strong>
+              </div>
+              <div class="folder-item">
+                <span class="folder-icon" aria-hidden="true"></span>
+                <strong>Ciencias</strong>
+              </div>
+              <div class="folder-item">
+                <span class="folder-icon" aria-hidden="true"></span>
+                <strong>Inglés</strong>
+              </div>
+            </aside>
+
+            <div class="folder-content" aria-label="Materiales disponibles en la carpeta seleccionada">
+              <div class="folder-heading">
+                <span class="folder-icon large" aria-hidden="true"></span>
+                <div>
+                  <strong>Lenguaje</strong>
+                  <span>3 materiales disponibles sin internet</span>
+                </div>
+              </div>
+
+              <div class="file-list">
+                <div class="file-row">
+                  <span class="file-type">PDF</span>
+                  <div>
+                    <strong>Comprensión lectora</strong>
+                    <span>materiales/lenguaje/comprension-lectora.pdf</span>
+                  </div>
+                </div>
+                <div class="file-row">
+                  <span class="file-type guide">Guía</span>
+                  <div>
+                    <strong>Guía de análisis de texto</strong>
+                    <span>materiales/lenguaje/guia-analisis-texto.pdf</span>
+                  </div>
+                </div>
+                <div class="file-row">
+                  <span class="file-type video">Video</span>
+                  <div>
+                    <strong>Estrategias de lectura</strong>
+                    <span>materiales/lenguaje/estrategias-lectura.mp4</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="local-status">
+                <span aria-hidden="true"></span>
+                Disponible en red local
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="value-grid" aria-label="Propuesta de valor">
+        <article class="value-item">
+          <span class="value-number">01</span>
+          <h2>Red local</h2>
+          <p>Consulta de materiales desde equipos conectados a la red interna, sin depender de internet.</p>
+        </article>
+        <article class="value-item">
+          <span class="value-number">02</span>
+          <h2>Contenidos organizados</h2>
+          <p>Recursos ordenados por asignatura y tipo para facilitar el estudio autónomo y guiado.</p>
+        </article>
+        <article class="value-item">
+          <span class="value-number">03</span>
+          <h2>Administración docente</h2>
+          <p>Panel para agregar, revisar y retirar materiales pedagógicos durante la sesión.</p>
+        </article>
+        <article class="value-item">
+          <span class="value-number">04</span>
+          <h2>Medición de acceso</h2>
+          <p>Registro simulado de consultas para observar uso de materiales y orientar mejoras.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="estudiante" aria-labelledby="estudiante-titulo">
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Vista estudiante</p>
+          <h1 id="estudiante-titulo">Materiales por asignatura</h1>
+        </div>
+        <p>
+          Recursos pedagógicos disponibles para segundo nivel medio EPJA, organizados para consulta local.
+        </p>
+      </div>
+
+      <div class="toolbar" aria-label="Herramientas de búsqueda y filtro">
+        <label class="field field-search" for="busqueda">
+          <span>Buscar material</span>
+          <input id="busqueda" type="search" placeholder="Ej: lectura, ecuaciones, salud">
+        </label>
+
+        <label class="field" for="filtro-tipo">
+          <span>Tipo de recurso</span>
+          <select id="filtro-tipo">
+            <option value="todos">Todos</option>
+            <option value="PDF">PDF</option>
+            <option value="Guía">Guía</option>
+            <option value="Video">Video</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="subject-strip" id="subject-strip" aria-label="Asignaturas disponibles"></div>
+      <div class="resource-grid" id="resource-grid" aria-live="polite"></div>
+      <p class="empty-state" id="student-empty" hidden>No se encontraron recursos con esos criterios.</p>
+    </section>
+
+    <section class="view" id="detalle" aria-labelledby="detalle-titulo">
+      <button class="text-action" type="button" data-view="estudiante">Volver a materiales</button>
+      <div class="detail-layout">
+        <article class="detail-panel">
+          <p class="section-eyebrow">Detalle de recurso</p>
+          <h1 id="detalle-titulo">Recurso seleccionado</h1>
+          <dl class="detail-list">
+            <div>
+              <dt>Asignatura</dt>
+              <dd id="detalle-asignatura"></dd>
+            </div>
+            <div>
+              <dt>Tipo</dt>
+              <dd id="detalle-tipo"></dd>
+            </div>
+            <div>
+              <dt>Descripción</dt>
+              <dd id="detalle-descripcion"></dd>
+            </div>
+            <div>
+              <dt>Ruta local simulada</dt>
+              <dd id="detalle-ruta"></dd>
+            </div>
+            <div>
+              <dt>Estado</dt>
+              <dd><span class="status-pill">Disponible en red local</span></dd>
+            </div>
+          </dl>
+          <div class="detail-actions">
+            <button class="primary-action" type="button" id="detalle-descarga">Descargar simulado</button>
+            <button class="secondary-action" type="button" data-view="estadisticas">Ver estadísticas</button>
+          </div>
+        </article>
+
+        <aside class="preview-panel" aria-label="Vista previa simulada del recurso">
+          <div class="preview-sheet">
+            <span class="preview-band"></span>
+            <span class="preview-line wide"></span>
+            <span class="preview-line"></span>
+            <span class="preview-line short"></span>
+            <span class="preview-block"></span>
+            <span class="preview-line"></span>
+            <span class="preview-line short"></span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view" id="docente" aria-labelledby="docente-titulo">
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Vista docente</p>
+          <h1 id="docente-titulo">Administración de materiales</h1>
+        </div>
+        <p>
+          En la versión final, las y los docentes podrían actualizar contenidos localmente desde el equipo
+          servidor o desde un panel conectado a la red interna.
+        </p>
+      </div>
+
+      <div class="management-layout">
+        <form class="material-form" id="material-form">
+          <h2>Agregar material</h2>
+
+          <label class="field" for="nuevo-titulo">
+            <span>Título</span>
+            <input id="nuevo-titulo" name="titulo" type="text" required maxlength="80" placeholder="Ej: Guía de lectura crítica">
+          </label>
+
+          <label class="field" for="nuevo-asignatura">
+            <span>Asignatura</span>
+            <select id="nuevo-asignatura" name="asignatura" required>
+              <option value="Lenguaje">Lenguaje</option>
+              <option value="Matemática">Matemática</option>
+              <option value="Historia">Historia</option>
+              <option value="Ciencias">Ciencias</option>
+              <option value="Inglés">Inglés</option>
+            </select>
+          </label>
+
+          <label class="field" for="nuevo-tipo">
+            <span>Tipo</span>
+            <select id="nuevo-tipo" name="tipo" required>
+              <option value="PDF">PDF</option>
+              <option value="Guía">Guía</option>
+              <option value="Video">Video</option>
+            </select>
+          </label>
+
+          <label class="field" for="nuevo-descripcion">
+            <span>Descripción</span>
+            <textarea id="nuevo-descripcion" name="descripcion" rows="4" required maxlength="220" placeholder="Breve descripción pedagógica del material"></textarea>
+          </label>
+
+          <label class="field" for="nuevo-ruta">
+            <span>Ruta local</span>
+            <input id="nuevo-ruta" name="ruta" type="text" required placeholder="materiales/lenguaje/archivo.pdf">
+          </label>
+
+          <button class="primary-action full-width" type="submit">Agregar material</button>
+        </form>
+
+        <div class="table-panel">
+          <div class="table-header">
+            <h2>Recursos cargados</h2>
+            <span id="teacher-count"></span>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <caption>Tabla de recursos administrables durante la sesión</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Título</th>
+                  <th scope="col">Asignatura</th>
+                  <th scope="col">Tipo</th>
+                  <th scope="col">Ruta local</th>
+                  <th scope="col">Acción</th>
+                </tr>
+              </thead>
+              <tbody id="teacher-table"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="estadisticas" aria-labelledby="estadisticas-titulo">
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Estadísticas</p>
+          <h1 id="estadisticas-titulo">Medición de acceso</h1>
+        </div>
+        <p>
+          Estos datos permiten medir impacto por acceso a materiales, identificar asignaturas de mayor consulta
+          y tomar decisiones pedagógicas con evidencia local.
+        </p>
+      </div>
+
+      <div class="stats-grid" aria-label="Indicadores principales">
+        <article class="stat-item">
+          <span>Total de materiales</span>
+          <strong id="stat-materiales">0</strong>
+        </article>
+        <article class="stat-item">
+          <span>Total de accesos</span>
+          <strong id="stat-accesos">0</strong>
+        </article>
+        <article class="stat-item">
+          <span>Asignatura más consultada</span>
+          <strong id="stat-asignatura">Sin registros</strong>
+        </article>
+        <article class="stat-item">
+          <span>Tipo más consultado</span>
+          <strong id="stat-tipo">Sin registros</strong>
+        </article>
+      </div>
+
+      <div class="stats-tables">
+        <div class="table-panel">
+          <h2>Accesos por asignatura</h2>
+          <div class="table-scroll">
+            <table>
+              <caption>Consultas registradas por asignatura</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Asignatura</th>
+                  <th scope="col">Accesos</th>
+                </tr>
+              </thead>
+              <tbody id="stats-subjects"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-panel">
+          <h2>Accesos por tipo</h2>
+          <div class="table-scroll">
+            <table>
+              <caption>Consultas registradas por tipo de recurso</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Tipo</th>
+                  <th scope="col">Accesos</th>
+                </tr>
+              </thead>
+              <tbody id="stats-types"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="acerca" aria-labelledby="acerca-titulo">
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">Acerca del proyecto</p>
+          <h1 id="acerca-titulo">Aula Raíz para TPE401</h1>
+        </div>
+        <p>
+          Propuesta de plataforma educativa local para contextos donde la conectividad es restringida y el acceso
+          ordenado a contenidos digitales requiere una solución autónoma.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-item">
+          <h2>Problema</h2>
+          <p>
+            Dificultad de acceso a materiales educativos digitales en contextos con conectividad restringida.
+          </p>
+        </article>
+        <article class="about-item">
+          <h2>Necesidad</h2>
+          <p>
+            Recursos pedagógicos organizados, accesibles y administrables localmente por docentes de la escuela.
+          </p>
+        </article>
+        <article class="about-item">
+          <h2>Ventaja competitiva</h2>
+          <p>
+            Funciona sin internet, es pertinente al contexto educativo penitenciario, permite administración
+            docente y mide acceso a los materiales.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
