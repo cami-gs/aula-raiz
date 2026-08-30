@@ -1,28 +1,28 @@
 # 🌱 Aula Raíz
 
-**Plataforma Educativa Local para Contextos con Acceso Restringido**
+**Plataforma educativa local para contextos de encierro**
 
 ## Descripción
 
-Aula Raíz es un **prototipo funcional de plataforma web educativa** diseñada para el Liceo Santa María Eufrasia (CPF San Joaquín), destinada a estudiantes de segundo nivel medio EPJA (3.º y 4.º medio).
+Aula Raíz es un*prototipo funcional de plataforma web educativa diseñada para el Liceo Santa María Eufrasia (CPF San Joaquín), destinada a estudiantes de segundo nivel medio EPJA (3.º y 4.º medio).
 
 ### Propósito
 
 Facilitar el acceso a recursos educativos digitales en contextos donde:
 - La navegación abierta por internet está restringida por condiciones institucionales y de seguridad
 - Se requiere funcionamiento en red local sin dependencia de internet externo
-- Los docentes necesitan administrar y actualizar contenidos localmente
+- Las y los docentes necesitan administrar y actualizar contenidos localmente
 
 ## Características
 
-✅ **Red Local**: Funciona completamente en red local sin internet externo  
-✅ **Organización de Recursos**: Materiales ordenados por asignatura (Lenguaje, Matemática, Historia, Ciencias, Inglés)  
-✅ **Tipos de Contenidos**: PDF, Guías, Videos  
-✅ **Vista Estudiante**: Búsqueda, filtrado y visualización de recursos  
-✅ **Panel Docente**: Administración de materiales en tiempo real  
-✅ **Estadísticas**: Registro de acceso y análisis de consultas  
-✅ **Interfaz Accesible**: Diseño responsivo, navegación clara  
-✅ **Prototipo Funcional**: Lista de recursos precargada para demostración  
+**Red Local**: Funciona completamente en red local sin internet externo  
+**Organización de Recursos**: Materiales ordenados por asignatura (Lenguaje, Matemática, Historia, Ciencias, Inglés)  
+**Tipos de Contenidos**: PDF, Guías, Videos  
+**Vista Estudiante**: Búsqueda, filtrado y visualización de recursos  
+**Panel Docente**: Administración de materiales en tiempo real  
+**Estadísticas**: Registro de acceso y análisis de consultas  
+**Interfaz Accesible**: Diseño responsivo, navegación clara  
+**Prototipo Funcional**: Lista de recursos precargada para demostración  
 
 ## Tecnologías Usadas
 
@@ -90,24 +90,24 @@ El prototipo incluye 15 recursos de ejemplo:
 ## Funcionalidades Implementadas
 
 ### Vista Estudiante
-- 🔍 Búsqueda de materiales
-- 🏷️ Filtrado por tipo de recurso
-- 📊 Visualización por asignatura
-- 📥 Descarga simulada de recursos
-- 📝 Registro automático de acceso
+- Búsqueda de materiales
+- Filtrado por tipo de recurso
+- Visualización por asignatura
+- Descarga simulada de recursos
+- Registro automático de acceso
 
 ### Panel Docente
-- ➕ Agregar materiales
-- 📋 Tabla de recursos administrables
-- ❌ Eliminar recursos
-- 🔄 Actualización en tiempo real
+- Agregar materiales
+- Tabla de recursos administrables
+- Eliminar recursos
+- Actualización en tiempo real
 
 ### Estadísticas
-- 📈 Total de materiales
-- 📊 Total de accesos
-- 🎯 Asignatura más consultada
-- 📝 Tipo de recurso más consultado
-- 📋 Tablas de acceso por asignatura y tipo
+- Total de materiales
+- Total de accesos
+- Asignatura más consultada
+- Tipo de recurso más consultado
+- Tablas de acceso por asignatura y tipo
 
 ## Desarrollo Local
 
